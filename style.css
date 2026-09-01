@@ -4,20 +4,20 @@ body{
 }
 .title{
   text-align:center;
-  font-size:4vw;
+  font-size:10vw;
   color:black;
   text-decoration-color:black;
   letter-spacing:3vw;
 }
 .subtitle{
   text-align:center;
-  font-size:2vw;
+  font-size:5vw;
   color:black;
   margin: 0 0 2vw 0;
 }
 .text{
   text-align:left;
-  font-size:1vw;
+  font-size:3vw;
   color:black;
 }
 
