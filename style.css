@@ -28,3 +28,6 @@ body{
   border-radius:0.5vw;
   border:0.3vw solid black;
 }
+.line-1, .line-2{
+  display:flex;
+}
