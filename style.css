@@ -4,10 +4,27 @@ body{
 }
 .title{
   text-align:center;
-  font-size:5vw;
+  font-size:10vw;
   color:black;
   text-decoration-color:black;
-  letter-spacing:5vw;
+  letter-spacing:3vw;
 }
-
-
+.subtitle{
+  text-align:center;
+  font-size:5vw;
+  color:black;
+  margin: 0 0 2vw 0;
+}
+.text{
+  text-align:left;
+  font-size:3vw;
+  color:black;
+}
+.button-style{
+  display:block;
+  font-size:3vw;
+  background-color:white;
+  color:black;
+  border-radius:0.5vw;
+  border:0.3vw solid black;
+}
