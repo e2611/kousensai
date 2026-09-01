@@ -22,7 +22,7 @@ body{
   color:black;
   border-radius:0.5vw;
   border:0.3vw solid black;
-  margin:5vh auto 0 auto;
+  margin:6vh auto 0 auto;
 }
 .line-1, .line-2{
   display:flex;
