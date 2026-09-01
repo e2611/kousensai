@@ -1,2 +1,0 @@
-# kousensai
-none
