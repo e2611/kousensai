@@ -31,3 +31,6 @@ body{
 .line-1, .line-2{
   display:flex;
 }
+.imgitem{
+  width:45%;
+}
