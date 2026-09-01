@@ -16,12 +16,13 @@ body{
 }
 .button-style{
   display:block;
-  font-size:3vw;
+  font-size:5vw;
+  letter-spacing:0.1rem;
   background-color:white;
   color:black;
   border-radius:0.5vw;
   border:0.3vw solid black;
-  margin:2vh auto 0 auto;
+  margin:5vh auto 0 auto;
 }
 .line-1, .line-2{
   display:flex;
