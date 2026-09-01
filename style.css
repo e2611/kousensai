@@ -15,4 +15,9 @@ body{
   color:black;
   margin: 0 0 2vw 0;
 }
+.text{
+  text-align:left;
+  font-size:1vw;
+  color:black;
+}
 
