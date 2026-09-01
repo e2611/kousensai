@@ -6,7 +6,7 @@ fetch("questions.json")
     if (questionData) {
       q1Element.textContent = questionData.question;
     } else {
-      q1Element.textContent="ちょっとやばい"
+      q1Element.textContent="jsonファイルにq1のデータがありません。"
     }
   })
   .catch(error => console.error('エラー:', error));
