@@ -4,19 +4,19 @@ body{
 }
 .title{
   text-align:center;
-  font-size:10vw;
+  font-size:clamp(18px,10vw,100px);
   color:black;
   text-decoration-color:black;
-  letter-spacing:3vw;
+  letter-spacing:0.3rem;
 }
 .text{
   text-align:left;
-  font-size:3vw;
+  font-size:clamp(12px,4vw,30px);
   color:black;
 }
 .button-style{
   display:block;
-  font-size:5vw;
+  font-size:clamp(14px,5vw,32px);
   letter-spacing:0.1rem;
   background-color:white;
   color:black;
