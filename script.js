@@ -7,3 +7,9 @@ const starttestbtn = document.getElementById("starttestbtn");
 starttestbtn.addEventListener("click",()=>{
     location.href="test.html";
 })
+fetch("questions.json")
+    .then(response => response.json())
+  .then(data => {
+    console.log(data.name);
+  })
+  .catch(error => console.error('エラー:', error));
