@@ -23,9 +23,6 @@ fetch("questions.json")
         input.name=question.questionnumber;
         questioncontainer.appendChild(label);
         label.appendChild(input);
-
       })
     });
-
   });
-
