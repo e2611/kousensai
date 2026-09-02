@@ -20,6 +20,7 @@ fetch("questions.json")
         input.type="radio";
         input.value=option.dep;
         input.name=question.questionnumber;
+        input.required=true;
         questioncontainer.appendChild(label);
         label.appendChild(input);
       })
