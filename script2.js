@@ -25,3 +25,7 @@ fetch("questions.json")
       })
     });
   });
+const resultcontainer = document.getElementById("resultcontainer");
+const resultbtn = document.createElement("button");
+resultcontainer.appendChild(resultbtn);
+resultbtn.textContent="診断結果を見る";
