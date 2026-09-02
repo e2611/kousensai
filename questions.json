@@ -1,8 +1,14 @@
 [
     {"questionnumber": "q1", "question": "眠い" ,"options":[
-        {"option": "a", "text": "眠い"},
-        {"option": "b", "text": "眠くない"},
-        {"option": "c", "text": "どちらでもない"},
-        {"option": "d", "text": "わからない"}
+        {"option": "a", "text": "眠い","dep":"E"},
+        {"option": "b", "text": "眠くない","dep":"A"},
+        {"option": "c", "text": "どちらでもない","dep":"M"},
+        {"option": "d", "text": "わからない","dep":"C"}
+    ]},
+    {"questionnumber": "q2", "question": "軽い" ,"options":[
+        {"option": "a", "text": "軽い","dep":"E"},
+        {"option": "b", "text": "重い","dep":"A"},
+        {"option": "c", "text": "どちらでもない","dep":"M"},
+        {"option": "d", "text": "わからない","dep":"C"}
     ]}
 ]
