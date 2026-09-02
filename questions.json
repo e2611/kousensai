@@ -1,5 +1,7 @@
 [
-    {"questionnumber": "q1", "question": "眠い" ,"options":[
+    {"questionnumber": "q1", 
+    "question": "眠い" ,
+    "options":[
         {"option": "a", "text": "眠い","dep":"E"},
         {"option": "b", "text": "眠くない","dep":"A"},
         {"option": "c", "text": "どちらでもない","dep":"M"},
