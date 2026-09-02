@@ -1,8 +1,7 @@
 const container = document.getElementById("container");
 fetch("questions.json")
   .then(response => response.json()) 
-  .then(data => {
-    
+  .then(data => {    
     data.forEach(question => {
       const questioncontainer = document.createElement("div");
       questioncontainer.id = question.questionnumber;
