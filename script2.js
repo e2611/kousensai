@@ -30,3 +30,43 @@ const resultcontainer = document.getElementById("resultcontainer");
 const resultbtn = document.createElement("button");
 resultcontainer.appendChild(resultbtn);
 resultbtn.textContent="診断結果を見る";
+resultbtn.addEventListener("click", () => {
+  const questionDivs = container.querySelectorAll("div[id^='Q']");
+  const selectedValues = [];
+  questionDivs.forEach(div => {
+    const checkedInput = div.querySelector('input[type="radio"]:checked');
+    if (checkedInput) {
+      selectedValues.push(checkedInput.value);
+    }
+  });
+  if (selectedValues.length < questionDivs.length) {
+    alert("すべての質問に回答してください。");
+    return;
+  }
+  const counts = {};
+  selectedValues.forEach(val => {
+    counts[val] = (counts[val] || 0) + 1;
+  });
+  let maxCount = 0;
+  let resultType = "";
+  for (const type in counts) {
+    if (counts[type] > maxCount) {
+      maxCount = counts[type];
+      resultType = type;
+    }
+  }
+  const resultMessages = {
+    "E": "E科",
+    "A": "A科",
+    "M": "M科",
+    "C": "C科"
+  };
+  let resultDisplay = document.getElementById("result-display");
+  if (!resultDisplay) {
+    resultDisplay = document.createElement("p");
+    resultDisplay.id = "result-display";
+    resultcontainer.appendChild(resultDisplay);
+  }
+
+  resultDisplay.textContent = `診断結果：${resultMessages[resultType] || resultType + 'タイプ'}`;
+});
