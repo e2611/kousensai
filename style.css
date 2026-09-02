@@ -33,3 +33,10 @@ body{
 .title ,.text ,.button-style{
   font-family:sans-serif;
 }
+.reverse{
+  display: inline-flex;  
+  flex-direction: row-reverse; 
+  align-items: center;    
+  gap: 0px;
+  margin: 0 auto;              
+}
