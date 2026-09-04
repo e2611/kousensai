@@ -65,12 +65,18 @@ resultbtn.addEventListener("click", () => {
     "M": "M科",
     "C": "C科"
   };
-    const resultDisplay = document.createElement("p");
-    resultDisplay.id = "result-display";
-    resultcontainer.appendChild(resultDisplay);
+  let resultDisplay = document.getElementById("result-display");
+  if (!resultDisplay) {
+  resultDisplay = document.createElement("p");
+  resultDisplay.id = "result-display";
+  resultcontainer.appendChild(resultDisplay);
+  }
   resultDisplay.textContent = `診断結果：${resultMessages[resultType] }`;
-  const sharex =document.createElement("button");
-  sharex.id="share-btn";
+  let sharex =document.getElementById("share-btn");
+  if (!sharex) {
+    sharex =document.createElement("button");
+    sharex.id="share-btn";
+  }
   const text = encodeURIComponent(resultMessages[resultType]);
   const url = encodeURIComponent('https://e2611.github.io/kousensai/');
   sharex.innerHTML = `<a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank">Xでシェア</a>`;
