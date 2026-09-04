@@ -76,6 +76,7 @@ resultbtn.addEventListener("click", () => {
   if (!sharex) {
     sharex =document.createElement("button");
     sharex.id="share-btn";
+    sharex.classList.add("sharex-btn");
   }
   const text = encodeURIComponent(resultMessages[resultType]);
   const url = encodeURIComponent('https://e2611.github.io/kousensai/');
@@ -85,9 +86,10 @@ resultbtn.addEventListener("click", () => {
   if(!restartbtn){
     restartbtn = document.createElement("button");
     restartbtn.id="restart-btn";
+    restartbtn.classList.add("restart-btn");
     restartbtn.textContent="もう一度診断する";
-    resultcontainer.appendChild(restartbtn);
   }
+  resultcontainer.appendChild(restartbtn);
   restartbtn.addEventListener("click",()=>{
   location.reload();
   });
