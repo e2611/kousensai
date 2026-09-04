@@ -79,6 +79,6 @@ resultbtn.addEventListener("click", () => {
   }
   const text = encodeURIComponent(resultMessages[resultType]);
   const url = encodeURIComponent('https://e2611.github.io/kousensai/');
-  sharex.innerHTML = `<a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank">Xでシェア</a>`;
+  sharex.innerHTML = `<a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank" hashtags="明石高専,高専祭">Xでシェア</a>`;
   resultcontainer.appendChild(sharex);
 });
