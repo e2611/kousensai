@@ -74,13 +74,13 @@ resultbtn.addEventListener("click", () => {
   resultDisplay.textContent = `診断結果：${resultMessages[resultType] }`;
   let sharex =document.getElementById("share-btn");
   if (!sharex) {
-    sharex =document.createElement("button");
+    sharex =document.createElement("a");
     sharex.id="share-btn";
     sharex.classList.add("sharex-btn");
   }
   const text = encodeURIComponent(resultMessages[resultType]);
   const url = encodeURIComponent('https://e2611.github.io/kousensai/');
-  sharex.innerHTML = `<a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank" hashtags="明石高専,高専祭">Xでシェア</a>`;
+  sharex.innerHTML = `<a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank" hashtags="明石高専,高専祭" style="text-decoration:none;color:#F4F4F4;">Xでシェア</a>`;
   resultcontainer.appendChild(sharex);
   let restartbtn = document.getElementById("restart-btn");
   if(!restartbtn){
