@@ -40,3 +40,15 @@ body{
   gap: 0px;
   margin: 0 auto;              
 }
+.red{
+  color:#F89E85;
+}
+.yellow{
+  color:#FFE292;
+}
+.blue{
+  color:#BFE5F1;
+}
+.green{
+  color:#DBE77F;
+}
