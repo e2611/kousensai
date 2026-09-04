@@ -84,8 +84,7 @@ resultbtn.addEventListener("click", () => {
   const restartbtn = document.createElement("button");
   restartbtn.textContent="もう一度初めから診断する";
   resultcontainer.appendChild(restartbtn);
-  restarbtn.addEventListener("click",()=>{
-    location.reload();
-  }
-  )
+  restartbtn.addEventListener("click",()=>{
+  location.reload();
+  });
 });
