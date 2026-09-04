@@ -7,8 +7,10 @@ fetch("questions.json")
       questioncontainer.id = question.questionnumber;
       container.appendChild(questioncontainer);
       const Newh2 = document.createElement("h2");
+      Newh2.classList.add("text");
       Newh2.textContent = question.questionnumber;
       const Newp = document.createElement("p");
+      Newp.classList.add("text");
       Newp.textContent = question.question;
       questioncontainer.appendChild(Newh2);
       questioncontainer.appendChild(Newp);
@@ -16,6 +18,7 @@ fetch("questions.json")
         const label = document.createElement("label");
         label.textContent= option.text;
         label.classList.add("reverse");
+        label.classList.add("text");
         const input = document.createElement("input");
         input.type="radio";
         input.value=option.dep;
@@ -30,6 +33,7 @@ const resultcontainer = document.getElementById("resultcontainer");
 const resultbtn = document.createElement("button");
 resultcontainer.appendChild(resultbtn);
 resultbtn.textContent="診断結果を見る";
+resultbtn.classList.add("button-style");
 resultbtn.addEventListener("click", () => {
   const questionDivs = container.querySelectorAll("div[id^='Q']");
   const selectedValues = [];
