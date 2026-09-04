@@ -71,6 +71,8 @@ resultbtn.addEventListener("click", () => {
   resultDisplay.textContent = `診断結果：${resultMessages[resultType] }`;
   const sharex =document.createElement("button");
   sharex.id="share-btn";
-  sharex.innerHTML="<%= link_to 'Xでシェア', 'https://twitter.com/intent/tweet?text=${resultMessages[resultType]}&url=https://e2611.github.io/kousensai/', target: '_blank'%>";
+  const text = encodeURIComponent(resultMessages[resultType]);
+  const url = encodeURIComponent('https://e2611.github.io/kousensai/');
+  sharex.innerHTML = `<a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank">Xでシェア</a>`;
   resultcontainer.appendChild(sharex);
 });
