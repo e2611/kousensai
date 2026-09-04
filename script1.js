@@ -7,4 +7,7 @@ const starttestbtn = document.getElementById("starttestbtn");
 starttestbtn.addEventListener("click",()=>{
     location.href="test.html";
 })
-
+const title= document.getElementById("title");
+title.addEventListener("click",()=>{
+    location.href="index.html";
+})

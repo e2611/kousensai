@@ -1,4 +1,8 @@
 const container = document.getElementById("container");
+const title= document.getElementById("title");
+title.addEventListener("click",()=>{
+    location.href="index.html";
+})
 fetch("questions.json")
   .then(response => response.json()) 
   .then(data => {    
