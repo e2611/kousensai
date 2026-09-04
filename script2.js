@@ -81,4 +81,11 @@ resultbtn.addEventListener("click", () => {
   const url = encodeURIComponent('https://e2611.github.io/kousensai/');
   sharex.innerHTML = `<a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank" hashtags="明石高専,高専祭">Xでシェア</a>`;
   resultcontainer.appendChild(sharex);
+  const restartbtn = document.createElement("button");
+  restartbtn.textContent="もう一度初めから診断する";
+  resultcontainer.appendChild(restartbtn);
+  restarbtn.addEventListener("click",()=>{
+    location.reload();
+  }
+  )
 });
