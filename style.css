@@ -56,6 +56,6 @@ body{
   background-color:#000100;
   border-radius:0.5vw;
   border:0.1vw solid #000100;
-  font-size:clamp(10px,2vw,20px);
+  font-size:clamp(14px,2vw,25px);
   margin:2vh 3vw 0 0;
 }
