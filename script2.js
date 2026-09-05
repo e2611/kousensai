@@ -96,5 +96,6 @@ resultbtn.addEventListener("click", () => {
   resultcontainer.appendChild(restartbtn);
   restartbtn.addEventListener("click",()=>{
   location.reload();
+  window.scrollTo(0,0);
   });
 });
