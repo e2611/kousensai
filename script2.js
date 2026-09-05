@@ -94,6 +94,7 @@ resultbtn.addEventListener("click", () => {
     restartbtn.textContent="もう一度診断する";
   }
   resultcontainer.appendChild(restartbtn);
+  restartbtn.scrollInToView({behavior:"smooth"});
   restartbtn.addEventListener("click",()=>{
   location.reload();
   window.scrollTo(0,0);
