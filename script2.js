@@ -33,9 +33,10 @@ fetch("questions.json")
       })
     });
   });
+const answercontainer = document.getElementById("answercontainer");
 const resultcontainer = document.getElementById("resultcontainer");
 const resultbtn = document.createElement("button");
-resultcontainer.appendChild(resultbtn);
+answercontainer.appendChild(resultbtn);
 resultbtn.textContent="診断結果を見る";
 resultbtn.classList.add("button-style");
 resultbtn.addEventListener("click", () => {
@@ -94,7 +95,7 @@ resultbtn.addEventListener("click", () => {
     restartbtn.textContent="もう一度診断する";
   }
   resultcontainer.appendChild(restartbtn);
-  restartbtn.scrollInToView({behavior:"smooth"});
+  restartbtn.scrollIntoView({behavior:"smooth"});
   restartbtn.addEventListener("click",()=>{
   location.reload();
   window.scrollTo(0,0);
