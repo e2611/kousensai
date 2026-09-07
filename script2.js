@@ -34,6 +34,7 @@ fetch("questions.json")
     });
   });
 const answercontainer = document.getElementById("answercontainer");
+const buttoncontainer = document.getElementById("b");
 const resultcontainer = document.getElementById("resultcontainer");
 const resultbtn = document.createElement("button");
 answercontainer.appendChild(resultbtn);
@@ -74,7 +75,7 @@ resultbtn.addEventListener("click", () => {
   if (!resultDisplay) {
   resultDisplay = document.createElement("p");
   resultDisplay.id = "result-display";
-  const buttoncontainer = document.getElementById("b");
+  
   buttoncontainer.appendChild(resultDisplay);
   }
   resultDisplay.textContent = `診断結果：${resultMessages[resultType] }`;
