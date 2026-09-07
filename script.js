@@ -3,7 +3,7 @@ const title= document.getElementById("title");
 title.addEventListener("click",()=>{
     location.href="index.html";
 })
-window.addEventListener('load',()=>{
+window.addEventListener('DOMContentLoaded',()=>{
   window.scrollTo(0,0);
 })
 const namaae=window.location.pathname;
