@@ -38,7 +38,7 @@
         { "text": "発展ゲーム","dep":"C"}
     ]},
     {"questionnumber": "Q7", "question": "外出するならどこに行きますか？" ,"options":[
-        { "text": "外出なんてねえよ","dep":"E"},
+        { "text": "外出しない","dep":"E"},
         {"text": "城","dep":"A"},
         { "text": "駅","dep":"M"},
         { "text": "観光スポット","dep":"C"}
