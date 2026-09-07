@@ -30,7 +30,7 @@ body{
   width:45%;
   margin: 0 2.5% 0 2.5%;
 }
-.title ,.text ,.button-style{
+.title ,.text ,.button-style ,.sharex-btn{
   font-family:sans-serif;
 }
 .reverse{
