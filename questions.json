@@ -23,7 +23,7 @@
         { "text": "パソコン","dep":"E"},
         {"text": "家具","dep":"A"},
         { "text": "3Dプリンター","dep":"M"},
-        { "text": "街づくりのゲーム","dep":"C"}
+        { "text": "土地","dep":"C"}
     ]},
     {"questionnumber": "Q5", "question": "パソコンで何かをするのが好きですか？" ,"options":[
         { "text": "はい","dep":"E"},
