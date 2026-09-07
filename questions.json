@@ -73,10 +73,10 @@
     "questionnumber": "Q8",
     "question": "どの学科に興味がありますか？",
     "options": [
-      { "text": "M科", "dep": "M" },
-      { "text": "C科", "dep": "C" },
-      { "text": "A科", "dep": "A" },
-      { "text": "E科", "dep": "E" }
+      { "text": "M科（機械工学科）", "dep": "M" },
+      { "text": "C科（都市システム工学工学科）", "dep": "C" },
+      { "text": "A科（建築学科）", "dep": "A" },
+      { "text": "E科（電気情報工学科）", "dep": "E" }
     ]
   }
 ]
