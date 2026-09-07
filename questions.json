@@ -48,17 +48,5 @@
         {"text": "","dep":"A"},
         { "text": "","dep":"M"},
         { "text": "","dep":"C"}
-    ]},
-    {"questionnumber": "Q9", "question": "" ,"options":[
-        { "text": "","dep":"E"},
-        {"text": "","dep":"A"},
-        { "text": "","dep":"M"},
-        { "text": "","dep":"C"}
-    ]},
-    {"questionnumber": "Q10", "question": "" ,"options":[
-        { "text": "","dep":"E"},
-        {"text": "","dep":"A"},
-        { "text": "","dep":"M"},
-        { "text": "","dep":"C"}
     ]}
 ]
