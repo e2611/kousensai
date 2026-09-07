@@ -98,7 +98,7 @@ resultbtn.addEventListener("click", () => {
     restartbtn = document.createElement("button");
     restartbtn.id="restart-btn";
     restartbtn.classList.add("restart-btn");
-    restartbtn.textContent="⟳もう一度診断する";
+    restartbtn.innerHTML = "<i class=\"fa-solid fa-rotate-right\"></i>もう一度診断する";
   }
   resultcontainer.appendChild(restartbtn);
   restartbtn.scrollIntoView({behavior:"smooth"});
