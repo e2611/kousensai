@@ -63,7 +63,7 @@ body{
   background-color:white;
   color:#333333;
   border-radius:0.5vw;
-  border:0.1vw solid #333333;
+  border:0.3vw solid #333333;
   font-size:clamp(14px,2vw,25px);
   margin:2vh 3vw 0 0;
 }
