@@ -1,8 +1,11 @@
-const container = document.getElementById("container");
+"use strict";
 const title= document.getElementById("title");
 title.addEventListener("click",()=>{
     location.href="index.html";
 })
+const namaae=window.location.pathname;
+if (namaae.includes("test.html")) {
+const container = document.getElementById("container");
 fetch("questions.json")
   .then(response => response.json()) 
   .then(data => {    
@@ -103,4 +106,4 @@ resultbtn.addEventListener("click", () => {
   location.reload();
   window.scrollTo(0,0);
   });
-});
+});}
