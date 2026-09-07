@@ -74,7 +74,7 @@ resultbtn.addEventListener("click", () => {
   if (!resultDisplay) {
   resultDisplay = document.createElement("p");
   resultDisplay.id = "result-display";
-  const buttoncontainer = document.getElementById("buttoncontainer");
+  const buttoncontainer = document.getElementById("b");
   buttoncontainer.appendChild(resultDisplay);
   }
   resultDisplay.textContent = `診断結果：${resultMessages[resultType] }`;
