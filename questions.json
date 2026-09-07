@@ -1,32 +1,32 @@
 [
     {"questionnumber": "Q1", 
-    "question": "眠い" ,
+    "question": "将来なにになりたいですか？" ,
     "options":[
-        {"text": "眠い","dep":"E"},
-        { "text": "眠くない","dep":"A"},
-        { "text": "どちらでもない","dep":"M"},
-        {"text": "わからない","dep":"C"}
+        {"text": "プログラマー","dep":"E"},
+        { "text": "建設会社","dep":"A"},
+        { "text": "エンジニア","dep":"M"},
+        {"text": "公務員","dep":"C"}
     ]},
-    {"questionnumber": "Q2", "question": "軽い" ,"options":[
-        { "text": "軽い","dep":"E"},
-        {"text": "重い","dep":"A"},
-        { "text": "どちらでもない","dep":"M"},
-        { "text": "わからない","dep":"C"}
+    {"questionnumber": "Q2", "question": "休日はなにがしたいですか？" ,"options":[
+        { "text": "ゲーム","dep":"E"},
+        {"text": "博物館","dep":"A"},
+        { "text": "鉄道見学","dep":"M"},
+        { "text": "旅行","dep":"C"}
     ]},
-    {"questionnumber": "Q3", "question": "" ,"options":[
-        { "text": "","dep":"E"},
-        {"text": "","dep":"A"},
-        { "text": "","dep":"M"},
-        { "text": "","dep":"C"}
+    {"questionnumber": "Q3", "question": "なんの教科が好きですか？" ,"options":[
+        { "text": "数学","dep":"E"},
+        {"text": "社会","dep":"A"},
+        { "text": "理科","dep":"M"},
+        { "text": "国語","dep":"C"}
     ]},
-    {"questionnumber": "Q4", "question": "" ,"options":[
-        { "text": "","dep":"E"},
-        {"text": "","dep":"A"},
-        { "text": "","dep":"M"},
-        { "text": "","dep":"C"}
+    {"questionnumber": "Q4", "question": "何か一つもらえたら何が欲しいですか？" ,"options":[
+        { "text": "パソコン","dep":"E"},
+        {"text": "家具","dep":"A"},
+        { "text": "3Dプリンター","dep":"M"},
+        { "text": "街づくりのゲーム","dep":"C"}
     ]},
-    {"questionnumber": "Q5", "question": "" ,"options":[
-        { "text": "","dep":"E"},
+    {"questionnumber": "Q5", "question": "パソコンで何かをするのが好きですか？" ,"options":[
+        { "text": "はい","dep":"E"},
         {"text": "","dep":"A"},
         { "text": "","dep":"M"},
         { "text": "","dep":"C"}
