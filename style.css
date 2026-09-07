@@ -67,3 +67,7 @@ body{
   font-size:clamp(14px,2vw,25px);
   margin:2vh 3vw 0 0;
 }
+.resultparent{
+  display:flex;
+  justify-content:space-between;
+}
