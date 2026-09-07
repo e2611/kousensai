@@ -3,6 +3,9 @@ const title= document.getElementById("title");
 title.addEventListener("click",()=>{
     location.href="index.html";
 })
+window.addEventListener('load',()=>{
+  window.scrollTo(0,0);
+})
 const namaae=window.location.pathname;
 if (namaae.includes("test.html")) {
 const container = document.getElementById("container");
