@@ -1,52 +1,82 @@
 [
-    {"questionnumber": "Q1", 
-    "question": "将来なにになりたいですか？" ,
-    "options":[
-        {"text": "プログラマー","dep":"E"},
-        { "text": "建築士","dep":"A"},
-        { "text": "エンジニア","dep":"M"},
-        {"text": "公務員","dep":"C"}
-    ]},
-    {"questionnumber": "Q2", "question": "休日はなにがしたいですか？" ,"options":[
-        { "text": "ゲーム","dep":"E"},
-        {"text": "博物館","dep":"A"},
-        { "text": "鉄道見学","dep":"M"},
-        { "text": "旅行","dep":"C"}
-    ]},
-    {"questionnumber": "Q3", "question": "なんの教科が好きですか？" ,"options":[
-        { "text": "数学","dep":"E"},
-        {"text": "社会","dep":"A"},
-        { "text": "理科","dep":"M"},
-        { "text": "国語","dep":"C"}
-    ]},
-    {"questionnumber": "Q4", "question": "何か一つもらえたら何が欲しいですか？" ,"options":[
-        { "text": "パソコン","dep":"E"},
-        {"text": "家具","dep":"A"},
-        { "text": "3Dプリンター","dep":"M"},
-        { "text": "土地","dep":"C"}
-    ]},
-    {"questionnumber": "Q5", "question": "何の教科が嫌いですか？" ,"options":[
-        { "text": "国語","dep":"E"},
-        {"text": "理科","dep":"A"},
-        { "text": "社会","dep":"M"},
-        { "text": "数学","dep":"C"}
-    ]},
-    {"questionnumber": "Q6", "question": "好きなゲームは何ですか" ,"options":[
-        { "text": "インクリメンタルゲーム","dep":"E"},
-        {"text": "ノベルゲーム","dep":"A"},
-        { "text": "ラジコンレース","dep":"M"},
-        { "text": "発展ゲーム","dep":"C"}
-    ]},
-    {"questionnumber": "Q7", "question": "外出するならどこに行きますか？" ,"options":[
-        { "text": "外出しない","dep":"E"},
-        {"text": "城","dep":"A"},
-        { "text": "駅","dep":"M"},
-        { "text": "観光スポット","dep":"C"}
-    ]},
-    {"questionnumber": "Q8", "question": "どの学科に興味がありますか？" ,"options":[
-        { "text": "E科","dep":"E"},
-        {"text": "A科","dep":"A"},
-        { "text": "M科","dep":"M"},
-        { "text": "C科","dep":"C"}
-    ]}
+  {
+    "questionnumber": "Q1",
+    "question": "将来なにになりたいですか？",
+    "options": [
+      { "text": "建築士", "dep": "A" },
+      { "text": "公務員", "dep": "C" },
+      { "text": "プログラマー", "dep": "E" },
+      { "text": "エンジニア", "dep": "M" }
+    ]
+  },
+  {
+    "questionnumber": "Q2",
+    "question": "休日はなにがしたいですか？",
+    "options": [
+      { "text": "鉄道見学", "dep": "M" },
+      { "text": "ゲーム", "dep": "E" },
+      { "text": "旅行", "dep": "C" },
+      { "text": "博物館", "dep": "A" }
+    ]
+  },
+  {
+    "questionnumber": "Q3",
+    "question": "なんの教科が好きですか？",
+    "options": [
+      { "text": "社会", "dep": "A" },
+      { "text": "理科", "dep": "M" },
+      { "text": "数学", "dep": "E" },
+      { "text": "国語", "dep": "C" }
+    ]
+  },
+  {
+    "questionnumber": "Q4",
+    "question": "何か一つもらえたら何が欲しいですか？",
+    "options": [
+      { "text": "土地", "dep": "C" },
+      { "text": "3Dプリンター", "dep": "M" },
+      { "text": "家具", "dep": "A" },
+      { "text": "パソコン", "dep": "E" }
+    ]
+  },
+  {
+    "questionnumber": "Q5",
+    "question": "何の教科が嫌いですか？",
+    "options": [
+      { "text": "理科", "dep": "A" },
+      { "text": "国語", "dep": "E" },
+      { "text": "数学", "dep": "C" },
+      { "text": "社会", "dep": "M" }
+    ]
+  },
+  {
+    "questionnumber": "Q6",
+    "question": "好きなゲームは何ですか",
+    "options": [
+      { "text": "ラジコンレース", "dep": "M" },
+      { "text": "発展ゲーム", "dep": "C" },
+      { "text": "インクリメンタルゲーム", "dep": "E" },
+      { "text": "ノベルゲーム", "dep": "A" }
+    ]
+  },
+  {
+    "questionnumber": "Q7",
+    "question": "外出するならどこに行きますか？",
+    "options": [
+      { "text": "城", "dep": "A" },
+      { "text": "外出しない", "dep": "E" },
+      { "text": "観光スポット", "dep": "C" },
+      { "text": "駅", "dep": "M" }
+    ]
+  },
+  {
+    "questionnumber": "Q8",
+    "question": "どの学科に興味がありますか？",
+    "options": [
+      { "text": "M科", "dep": "M" },
+      { "text": "C科", "dep": "C" },
+      { "text": "A科", "dep": "A" },
+      { "text": "E科", "dep": "E" }
+    ]
+  }
 ]
