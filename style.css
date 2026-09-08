@@ -45,7 +45,7 @@ body{
   border-radius:0.5vw;
   border:0.1vw solid #000100;
   font-size:clamp(14px,2vw,25px);
-  margin:2vh 3vw 0 0;
+  margin:2vh 3vw 2vh 0;
 }
 .restart-btn{
   background-color:white;
@@ -53,7 +53,7 @@ body{
   border-radius:0.5vw;
   border:0.3vw solid #333333;
   font-size:clamp(14px,2vw,25px);
-  margin:2vh 3vw 0 0;
+  margin:2vh 3vw 2vh 0;
 }
 .resultparent{
   display:flex;
