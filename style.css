@@ -26,7 +26,7 @@ body{
 .line-1, .line-2{
   display:flex;
 }
-.imgitem{
+.img{
   width:45%;
   margin: 0 2.5% 0 2.5%;
 }
