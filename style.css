@@ -3,12 +3,11 @@ body{
   background-color:#fffff0;
 }
 .title{
-  text-align:center;
   font-size:clamp(18px,10vw,100px);
   color:#333333;
   letter-spacing:0.3rem;
-  display:block;
-  width:fit-content;
+  width:max-content;
+  margin:auto;
 }
 .text{
   text-align:left;
@@ -32,7 +31,7 @@ body{
   width:45%;
   margin: 0 2.5% 0 2.5%;
 }
-.title ,.text ,.button-style ,.sharex-btn{
+.text ,.button-style ,.sharex-btn{
   font-family:sans-serif;
 }
 .reverse{
