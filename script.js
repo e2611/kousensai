@@ -91,7 +91,7 @@ resultbtn.addEventListener("click", () => {
   }
   const text = encodeURIComponent(resultMessages[resultType]);
   const url = encodeURIComponent('https://e2611.github.io/kousensai/');
-  sharex.innerHTML = `<a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank" hashtags="明石高専,高専祭" style="text-decoration:none;color:#F4F4F4;">結果をxでポスト</a>`;
+  sharex.innerHTML = `<a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank" hashtags="明石高専,高専祭" style="text-decoration:none;color:#F4F4F4;">結果を<i class="fa-brands fa-x-twitter"></i>でポスト</a>`;
   resultcontainer.appendChild(sharex);
   let restartbtn = document.getElementById("restart-btn");
   if(!restartbtn){
