@@ -72,7 +72,7 @@ resultbtn.addEventListener("click", () => {
     "E": "E科（電気情報工学科）",
     "A": "A科（建築学科）",
     "M": "M科（機械工学科）",
-    "C": "C科（都市システム工学工学科）"
+    "C": "C科（都市システム工学科）"
   };
   let resultDisplay = document.getElementById("result-display");
   if (!resultDisplay) {
@@ -83,6 +83,7 @@ resultbtn.addEventListener("click", () => {
   }
   resultDisplay.textContent = `診断結果：${resultMessages[resultType] }`;
   resultDisplay.classList.add("text");
+  resultDisplay.classList.add("result");
   let sharex =document.getElementById("share-btn");
   if (!sharex) {
     sharex =document.createElement("a");

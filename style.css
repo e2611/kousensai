@@ -59,3 +59,10 @@ body{
   display:flex;
   justify-content:space-between;
 }
+.result{
+  text-decoration:underline;
+  text-align:center;
+}
+.restart-btn ,.sharex-btn ,.button-style ,.title:hover{
+  cursor:pointer;
+}
