@@ -96,7 +96,6 @@ resultbtn.addEventListener("click", () => {
       suburl="https://www.akashi.ac.jp/civil.html";
       break;
   }
-  console.log(suburl);
   resultDisplay.textContent = `診断結果：${resultMessages[resultType] }`;
   resultDisplay.classList.add("text");
   resultDisplay.classList.add("result");
