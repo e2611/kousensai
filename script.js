@@ -81,9 +81,32 @@ resultbtn.addEventListener("click", () => {
   
   buttoncontainer.appendChild(resultDisplay);
   }
+  let suburl = "";
+  switch(resultType){
+    case "E":
+      suburl="https://www.akashi.ac.jp/electrical.html";
+      break;
+    case "A":
+      suburl="https://www.akashi.ac.jp/architecture.html";
+      break;
+    case "M":
+      suburl="https://www.akashi.ac.jp/mechanical.html";
+      break;
+    case "C":
+      suburl="https://www.akashi.ac.jp/civil.html";
+      break;
+  }
+  console.log(suburl);
   resultDisplay.textContent = `診断結果：${resultMessages[resultType] }`;
   resultDisplay.classList.add("text");
   resultDisplay.classList.add("result");
+  let learnmore = document.getElementById("learnmore");
+  if(!learnmore){
+    learnmore=document.createElement("div");
+    learnmore.id="learnmore";
+  }
+  learnmore.innerHTML=`<div id="learnmore" class="learn-btn" onclick="window.open('${suburl}')"><i class="fa-solid fa-arrow-up-right-from-square"></i>この学科について</div>`
+  buttoncontainer.appendChild(learnmore);
   let sharex =document.getElementById("share-btn");
   if (!sharex) {
     sharex =document.createElement("a");

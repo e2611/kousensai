@@ -56,6 +56,15 @@ body{
   font-size:clamp(14px,2vw,25px);
   margin:2vh 3vw 2vh 0;
 }
+.learn-btn{
+  background-color:white;
+  color:#333333;
+  border-radius:0.5vw;
+  border:0.3vw solid #333333;
+  font-size:clamp(14px,2.5vw,25px);
+  margin:2vh auto 2vh auto;
+  width:max-content;
+}
 .resultparent{
   display:flex;
   justify-content:space-between;
@@ -64,6 +73,6 @@ body{
   text-decoration:underline;
   text-align:center;
 }
-.restart-btn ,.sharex-btn ,.button-style ,.title:hover{
+.restart-btn ,.sharex-btn ,.button-style ,.title ,.learn-btn:hover{
   cursor:pointer;
 }
