@@ -61,8 +61,8 @@ body {
 
 .reverse {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
   gap: 12px;
   width: fit-content;
@@ -70,14 +70,15 @@ body {
   padding: 0.6vh 0.8vw;
   border-radius: 10px;
   background: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #7ca7cc;
   cursor: pointer;
 }
 
 .reverse input {
   width: 20px;
   height: 20px;
-  accent-color: #f89e85;
+  accent-color: #adcdef;
+  margin: 0;
 }
 
 .sharex-btn {
